@@ -1,5 +1,5 @@
-module CMySQL [system] {
-    header "mysql.h"
+module CMySQL {
+    header "/usr/local/include/mysql/mysql.h"
     link "mysqlclient"
     export *
 }
