@@ -1,10 +1,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "CMySQL",
-    pkgConfig: "mariadb",
-    providers: [
-      .Brew("mariadb"),
-      .Apt("libmariadbclient-dev")
-    ]
+    name: "CMySQL", 
+	pkgConfig: "mysqlclient",
+	providers: [
+	           	.Brew("mysql"),
+	           	.Apt("mysql"),
+	]
 )
