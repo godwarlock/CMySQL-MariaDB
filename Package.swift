@@ -4,7 +4,7 @@ let package = Package(
     name: "CMySQL", 
 	pkgConfig: "mysqlclient",
 	providers: [
-	           	.Brew("mysql"),
-	           	.Apt("mysql"),
+	           	.Brew("libmysqlclient-dev"),
+	           	.Apt("libmysqlclient-dev"),
 	]
 )
